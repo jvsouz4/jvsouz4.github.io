@@ -487,9 +487,16 @@ h6 {
   }
 }
 
+
 @media (max-width: 992px) {
   #hero {
     height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero span {
+    opacity: 0;
   }
 }
 
@@ -498,9 +505,6 @@ h6 {
     font-size: 28px;
   }
 
-  #hero span {
-    font-size: 38px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -558,6 +562,12 @@ section {
 
   .section-title span {
     font-size: 38px;
+  }
+}
+
+@media (max-width: 265px) {
+  .section-title span {
+    opacity: 0;
   }
 }
 
