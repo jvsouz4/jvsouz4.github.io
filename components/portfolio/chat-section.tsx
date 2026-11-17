@@ -17,7 +17,7 @@ type ChatMessage = {
 export function ChatSection() {
   const { language, copy } = useLanguage()
   const isStaticDeployment = process.env.NEXT_PUBLIC_STATIC_DEPLOY === "true"
-  const officialSiteUrl = process.env.NEXT_PUBLIC_OFFICIAL_SITE_URL ?? "https://jvsouz4.vercel.app"
+  const officialSiteUrl = process.env.NEXT_PUBLIC_OFFICIAL_SITE_URL ?? "https://jvsouz4-portfolio.vercel.app"
   const ref = useRef(null)
   const messagesContainerRef = useRef<HTMLDivElement | null>(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })

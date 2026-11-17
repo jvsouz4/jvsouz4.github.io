@@ -36,7 +36,7 @@ jobs:
       - name: Build static version
         run: |
           rm -rf app/api
-          STATIC_EXPORT=true NEXT_PUBLIC_STATIC_DEPLOY=true NEXT_PUBLIC_OFFICIAL_SITE_URL=https://jvsouz4.vercel.app npm run build
+          STATIC_EXPORT=true NEXT_PUBLIC_STATIC_DEPLOY=true NEXT_PUBLIC_OFFICIAL_SITE_URL=https://jvsouz4-portfolio.vercel.app npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
